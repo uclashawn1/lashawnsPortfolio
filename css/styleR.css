@@ -99,7 +99,7 @@ h3 {
 
 /* header */
 
-#masthead {
+#header {
   position: fixed;
   z-index: 99;
 
@@ -248,7 +248,7 @@ nav li:first-child {
 /* footer */
 
 footer,
-.push {
+.receive {
   height: 100px;
 }
 
@@ -327,7 +327,7 @@ main {
   padding-top: 130px;
 }
 
-.main-section {
+.main {
   float: left;
   width: 100%;
   max-width: 650px;
@@ -468,7 +468,7 @@ input[type=submit] {
 
 
 @media only screen and (max-width: 768px) {
-  .main-section {
+  .main {
     max-width: 100%;
   }
 
@@ -500,7 +500,7 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px){
-  #masthead {
+  #header {
     /* Positioning */
     position: static;
     margin-bottom: 20px;
