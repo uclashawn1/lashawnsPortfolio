@@ -1,5 +1,8 @@
 /* @import url("/responsive/css/reset.css"); */
 
+
+anchors.remove('all');
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
@@ -35,8 +38,8 @@ body {
 
 /* general */
 
-.wrapper {
-  height: auto !important;
+.wdiv {
+  /* height: auto !important; */
   height: 100%;
 
   /* Box-model */
